@@ -182,7 +182,7 @@ with open(DATA_ANNOTATION, 'rt') as lines:
             pass
         else:
             (file_path, class_id, category, *_) = line.split(' ')
-            complete_file_path = DATA_PATH_IMAGES+'{}.jpg'.format(file_path)
+            complete_file_path = DATA_PATH_IMAGES + '{}.jpg'.format(file_path)
             breeds[int_to_category[int(class_id)]].append(file_path)
 
 samples_count = min([len(file_paths) for file_paths in breeds.values()])

@@ -87,7 +87,6 @@ dependencies:
   - jasper=1.900.1=4
   - joblib=0.11=py36_0
   - kiwisolver=1.0.1=py36_1
-  - libiconv=1.15=0
   - librosa=0.6.0=py36_0
   - libxcb=1.13=0
   - llvmlite=0.21.0=py36_0
@@ -129,4 +128,3 @@ dependencies:
     - torchnet==0.0.2
     - visdom==0.1.7
 prefix: /home/juliano/anaconda3/envs/pytorch
-
